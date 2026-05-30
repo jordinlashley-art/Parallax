@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Primary SEO -->
+  <title>Microsoft 365 Features Your Team Doesn't Know They Have | Parallax Automation</title>
+  <meta name="description" content="Most Vancouver businesses use about 30% of their Microsoft 365 subscription. Here's what else is in there — Copilot AI, Power Automate, Teams, and more — in plain language."/>
+  <meta name="keywords" content="Microsoft 365 features small business, Microsoft 365 tips Vancouver, Copilot AI small business, Power Automate SMB, Microsoft 365 underused features, M365 Vancouver"/>
+  <meta name="author" content="Parallax Automation"/>
+  <link rel="canonical" href="https://parallaxautomate.com/microsoft-365-features.html"/>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article"/>
+  <meta property="og:title" content="Microsoft 365 Features Your Team Doesn't Know They Have"/>
+  <meta property="og:description" content="Most businesses use about 30% of their Microsoft 365 subscription. Here's what else is in there — and how to actually use it."/>
+  <meta property="og:url" content="https://parallaxautomate.com/microsoft-365-features.html"/>
+  <meta property="og:site_name" content="Parallax Automation"/>
+  <meta property="og:locale" content="en_CA"/>
+  <meta property="article:published_time" content="2025-06-01T08:00:00+00:00"/>
+  <meta property="article:author" content="Parallax Automation"/>
+  <meta property="article:tag" content="Microsoft 365"/>
+  <meta property="article:tag" content="AI Automation"/>
+  <meta property="article:tag" content="Small Business"/>
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Microsoft 365 Features Your Team Doesn't Know They Have"/>
+  <meta name="twitter:description" content="Most businesses use about 30% of their Microsoft 365 subscription. Here's what else is in there — in plain language."/>
+
+  <!-- Article schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Microsoft 365 Features Your Team Doesn't Know They Have",
+    "description": "Most Vancouver businesses use about 30% of their Microsoft 365 subscription. Here's what else is in there and how to use it.",
+    "author": {
+      "@type": "Organization",
+      "name": "Parallax Automation",
+      "url": "https://parallaxautomate.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Parallax Automation",
+      "url": "https://parallaxautomate.com"
+    },
+    "datePublished": "2025-06-01",
+    "dateModified": "2025-06-01",
+    "url": "https://parallaxautomate.com/microsoft-365-features.html",
+    "inLanguage": "en-CA",
+    "about": ["Microsoft 365", "Copilot AI", "Power Automate", "Small Business IT", "Workflow Automation"]
+  }
+  </script>
+
+  <!-- Local Business schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Parallax Automation",
+    "description": "IT management, Microsoft 365, Google Workspace administration, and AI workflow automation for small and medium businesses in Vancouver, BC.",
+    "url": "https://parallaxautomate.com",
+    "email": "hello@parallaxautomate.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vancouver",
+      "addressRegion": "BC",
+      "addressCountry": "CA"
+    }
+  }
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --night: #0E0F1A; --navy: #111428; --indigo: #3B4ECC;
+      --indigo-l: #5B6EEE; --teal: #00CBA8; --white: #F0F4FF;
+      --muted: #8A93B8; --border: rgba(91,110,238,0.18);
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--night);
+      color: var(--white);
+      line-height: 1.7;
+    }
+    body::after {
+      content: '';
+      position: fixed; inset: 0;
+      background-image:
+        linear-gradient(rgba(59,78,204,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(59,78,204,0.03) 1px, transparent 1px);
+      background-size: 44px 44px;
+      pointer-events: none; z-index: 0;
+    }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 5%; height: 64px;
+      background: rgba(14,15,26,0.88);
+      backdrop-filter: blur(20px);
+      border-bottom: 0.5px solid var(--border);
+    }
+    .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .nav-name { font-weight: 600; font-size: 16px; color: var(--white); }
+    .nav-sub  { font-family: 'JetBrains Mono', monospace; font-size: 8px; color: var(--indigo-l); letter-spacing: 3px; display: block; margin-top: 1px; }
+    .nav-back { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--muted); text-decoration: none; letter-spacing: 1px; transition: color 0.2s; }
+    .nav-back:hover { color: var(--white); }
+
+    .article-wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 110px 5% 100px;
+      position: relative; z-index: 1;
+    }
+
+    .article-header { margin-bottom: 52px; }
+    .article-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px; color: var(--teal);
+      letter-spacing: 3px; margin-bottom: 20px; display: block;
+    }
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(34px, 5vw, 52px);
+      font-weight: 400; letter-spacing: -1.5px;
+      line-height: 1.08; color: var(--white);
+      margin-bottom: 24px;
+    }
+    h1 em { font-style: italic; color: var(--teal); }
+
+    .article-meta {
+      display: flex; align-items: center; gap: 20px;
+      flex-wrap: wrap; margin-bottom: 32px;
+    }
+    .meta-item {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px; color: var(--muted); letter-spacing: 1px;
+    }
+    .meta-dot { color: var(--border); }
+
+    .article-intro {
+      font-size: 19px; font-weight: 300;
+      color: var(--muted); line-height: 1.8;
+      border-left: 3px solid var(--teal);
+      padding-left: 24px;
+    }
+
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(24px, 3vw, 32px);
+      font-weight: 400; letter-spacing: -0.8px;
+      color: var(--white); margin: 52px 0 16px;
+      line-height: 1.15;
+    }
+    h2 em { font-style: italic; color: var(--teal); }
+
+    h3 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 17px; font-weight: 600;
+      color: var(--white); margin: 32px 0 10px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    h3::before {
+      content: '';
+      display: inline-block;
+      width: 3px; height: 17px;
+      background: var(--indigo);
+      border-radius: 2px; flex-shrink: 0;
+    }
+
+    p {
+      font-size: 16px; font-weight: 300;
+      color: var(--muted); line-height: 1.9;
+      margin-bottom: 20px;
+    }
+    p strong { color: var(--white); font-weight: 500; }
+    p em { font-style: italic; color: var(--indigo-l); }
+    p a { color: var(--indigo-l); text-decoration: underline; }
+
+    .divider {
+      border: none;
+      border-top: 0.5px solid var(--border);
+      margin: 48px 0;
+    }
+
+    .pull-quote {
+      font-family: 'DM Serif Display', serif;
+      font-size: 22px; font-style: italic;
+      font-weight: 400; color: var(--white);
+      line-height: 1.5; letter-spacing: -0.3px;
+      border-left: 3px solid var(--teal);
+      padding: 8px 0 8px 28px;
+      margin: 36px 0;
+    }
+
+    .tool-card {
+      background: rgba(17,20,40,0.7);
+      border: 0.5px solid var(--border);
+      border-radius: 12px;
+      padding: 28px 32px;
+      margin: 28px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .tool-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, var(--indigo), var(--teal), transparent);
+    }
+    .tool-name {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px; color: var(--teal);
+      letter-spacing: 2px; margin-bottom: 8px;
+    }
+    .tool-title {
+      font-size: 17px; font-weight: 600;
+      color: var(--white); margin-bottom: 10px;
+    }
+    .tool-body {
+      font-size: 15px; font-weight: 300;
+      color: var(--muted); line-height: 1.8;
+      margin-bottom: 14px;
+    }
+    .tool-example {
+      background: rgba(59,78,204,0.08);
+      border: 0.5px solid rgba(59,78,204,0.25);
+      border-radius: 6px;
+      padding: 12px 16px;
+      font-size: 13px; font-weight: 300;
+      color: var(--indigo-l); line-height: 1.7;
+      font-style: italic;
+    }
+    .tool-example strong {
+      color: var(--white); font-style: normal; font-weight: 500;
+    }
+
+    /* Stat callout */
+    .stat-callout {
+      background: rgba(59,78,204,0.08);
+      border: 0.5px solid rgba(59,78,204,0.3);
+      border-radius: 10px;
+      padding: 24px 28px;
+      margin: 28px 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    .stat-num {
+      font-family: 'DM Serif Display', serif;
+      font-size: 52px; color: var(--teal);
+      letter-spacing: -2px; line-height: 1;
+      flex-shrink: 0;
+    }
+    .stat-text {
+      font-size: 15px; font-weight: 300;
+      color: var(--muted); line-height: 1.7;
+    }
+    .stat-text strong { color: var(--white); font-weight: 500; }
+
+    .article-cta {
+      background: rgba(59,78,204,0.1);
+      border: 0.5px solid rgba(59,78,204,0.35);
+      border-radius: 14px;
+      padding: 36px 40px;
+      margin-top: 56px;
+      text-align: center;
+    }
+    .article-cta h3 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 26px; font-weight: 400;
+      color: var(--white); margin-bottom: 12px;
+      letter-spacing: -0.5px;
+      display: block;
+    }
+    .article-cta h3::before { display: none; }
+    .article-cta p { font-size: 15px; margin-bottom: 24px; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--indigo); color: var(--white);
+      padding: 14px 28px; border-radius: 8px;
+      font-size: 15px; font-weight: 500;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn:hover { background: var(--indigo-l); transform: translateY(-2px); }
+
+    .related-articles {
+      margin-top: 56px;
+      padding-top: 32px;
+      border-top: 0.5px solid var(--border);
+    }
+    .related-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px; color: var(--muted);
+      letter-spacing: 2px; margin-bottom: 16px;
+    }
+    .related-link {
+      display: flex; align-items: center; gap: 12px;
+      text-decoration: none;
+      padding: 14px 0;
+      border-bottom: 0.5px solid var(--border);
+      transition: opacity 0.2s;
+    }
+    .related-link:hover { opacity: 0.75; }
+    .related-link:last-child { border-bottom: none; }
+    .related-link-title {
+      font-size: 15px; font-weight: 400;
+      color: var(--white);
+    }
+    .related-link-arrow { color: var(--teal); font-size: 16px; margin-left: auto; }
+
+    .author-block {
+      display: flex; align-items: center; gap: 16px;
+      padding: 28px 0; border-top: 0.5px solid var(--border);
+      margin-top: 32px;
+    }
+    .author-avatar {
+      width: 48px; height: 48px; border-radius: 50%;
+      background: var(--indigo);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; font-weight: 700; color: var(--white);
+      flex-shrink: 0;
+    }
+    .author-name { font-size: 15px; font-weight: 600; color: var(--white); }
+    .author-role { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--muted); letter-spacing: 1px; margin-top: 3px; }
+
+    footer {
+      border-top: 0.5px solid var(--border);
+      padding: 32px 5%; text-align: center;
+      position: relative; z-index: 1;
+    }
+    footer p {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px; color: #2E3450;
+      letter-spacing: 2px; margin: 0;
+    }
+
+    @media (max-width: 600px) {
+      .article-wrap { padding: 100px 20px 80px; }
+      .stat-callout { flex-direction: column; gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 22 A20 20 0 1 1 34 6" stroke="#3B4ECC" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M6 22 A16 16 0 1 1 32 9" stroke="#5B6EEE" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M10 22 A12 12 0 1 1 30 12" stroke="#00CBA8" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="22" cy="22" r="3.5" fill="#3B4ECC"/>
+        <circle cx="34" cy="6" r="2.5" fill="#00CBA8"/>
+      </svg>
+      <div>
+        <span class="nav-name">Parallax</span>
+        <span class="nav-sub">AUTOMATION</span>
+      </div>
+    </a>
+    <a href="index.html" class="nav-back">← Back to home</a>
+  </nav>
+
+  <article class="article-wrap">
+
+    <header class="article-header">
+      <span class="article-tag">MICROSOFT 365 · AI · AUTOMATION · FOR SMBS</span>
+      <h1>The Microsoft 365 features<br/>your team doesn't know <em>they have.</em></h1>
+      <div class="article-meta">
+        <span class="meta-item">PARALLAX AUTOMATION</span>
+        <span class="meta-dot">·</span>
+        <span class="meta-item">JUNE 2025</span>
+        <span class="meta-dot">·</span>
+        <span class="meta-item">9 MIN READ</span>
+      </div>
+      <p class="article-intro">Your organisation is paying for Microsoft 365. Your team uses Outlook, Word, and maybe Teams for video calls. But buried in that same subscription are an AI assistant, a workflow automation tool, a company intranet builder, and a forms platform — all sitting unused, all already paid for.</p>
+    </header>
+
+    <hr class="divider"/>
+
+    <h2>You've already paid for this. Twice.</h2>
+
+    <p>Here's a scenario that plays out in small businesses across Vancouver every single week. A business owner gets a quote for a new tool — maybe a form builder, maybe a basic automation platform, maybe an internal wiki for the team. The quote comes back at $300–500 a month. They wince, approve it, and add it to the growing stack of software subscriptions.</p>
+
+    <p>What nobody mentions is that <strong>Microsoft 365 already includes a version of all three.</strong> The form builder is Microsoft Forms. The automation platform is Power Automate. The internal wiki is SharePoint. They've been in the subscription the whole time. Paid for. Unused. Sitting there.</p>
+
+    <p>This isn't a knock on business owners — it's a knock on how Microsoft sells and documents these tools. The platform is vast, the feature names are confusing, and nobody's job is to sit down and explain what's actually in the box. That's what this article is for.</p>
+
+    <div class="stat-callout">
+      <div class="stat-num">56<span style="font-size:32px;">%</span></div>
+      <div class="stat-text"><strong>of Microsoft 365 licences are inactive, underutilised, or not fully used</strong> — according to analysis of millions of users. Most organisations are getting less than half the value they're paying for every single month.</div>
+    </div>
+
+    <p>If your team is using Outlook for email, Word for documents, and Excel for spreadsheets — you're probably in that 56%. Here's what else you have.</p>
+
+    <hr class="divider"/>
+
+    <h2>What Microsoft 365 <em>actually</em> includes</h2>
+
+    <div class="tool-card">
+      <div class="tool-name">TOOL 01 · MICROSOFT COPILOT</div>
+      <div class="tool-title">The AI assistant built into every app your team already uses</div>
+      <div class="tool-body">Copilot is Microsoft's AI — and depending on your plan, it's either already included or available as an affordable add-on. Unlike a standalone AI tool you'd have to learn separately, Copilot lives inside Outlook, Word, Excel, Teams, and PowerPoint. It understands the context of what you're working on and helps directly inside the app.<br/><br/>In Outlook, Copilot can summarise a long email thread in three bullet points, draft a reply based on the context of the conversation, or flag what needs your attention. In Word, it can write a first draft from a short brief you give it, rewrite a paragraph in a different tone, or summarise a long document. In Excel, it can analyse a dataset and tell you what it means in plain English — no formulas required.</div>
+      <div class="tool-example"><strong>Real example:</strong> A project manager receives a 40-email thread about a delayed delivery. Instead of reading every message to find out where things stand, she clicks "Summarise this thread" in Copilot. In five seconds she has a three-point summary: what happened, who's responsible, and what the next step is. She replies directly from the summary and moves on.</div>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-name">TOOL 02 · POWER AUTOMATE</div>
+      <div class="tool-title">Connect your tools and automate repetitive tasks — without writing code</div>
+      <div class="tool-body">Power Automate is Microsoft's workflow automation tool and it's included in most Microsoft 365 business plans. Think of it as the glue between all the apps your team uses — it can watch for something to happen in one app and automatically trigger an action in another.<br/><br/>When a new row is added to an Excel spreadsheet, Power Automate can send an email notification. When a form is submitted, it can create a task in Microsoft Planner and notify the right person in Teams. When a client emails a specific address, it can log the details in a spreadsheet and send an acknowledgement automatically. Every one of those things your team currently does manually, one by one.</div>
+      <div class="tool-example"><strong>Real example:</strong> A small accounting firm manually logged every new client enquiry from their website into a spreadsheet, then sent a confirmation email, then added a reminder to follow up in three days. Power Automate now does all three steps automatically the moment the enquiry lands — the team member just sees a Teams notification telling them a new lead is ready to call.</div>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-name">TOOL 03 · MICROSOFT FORMS</div>
+      <div class="tool-title">Collect information, run surveys, and trigger workflows — all in one tool</div>
+      <div class="tool-body">Microsoft Forms is a surprisingly capable form and survey builder that connects directly to Excel and Power Automate. Most businesses that use it just collect basic information and then manually deal with the responses. But Forms connected to Power Automate is a completely different beast — every response can trigger an automatic action, routing the information to exactly where it needs to go without anyone touching it.<br/><br/>Client intake forms that automatically populate a CRM. Staff leave requests that notify a manager and update a shared calendar. Equipment requests that log to a tracker and send an approval email. All built into the subscription, all waiting to be connected.</div>
+      <div class="tool-example"><strong>Real example:</strong> A trades business used a paper job sheet for every new job. The owner manually transferred details into a spreadsheet at the end of each day. A Microsoft Form on their phone now captures the same information on-site, automatically populates the job tracker in Excel, and sends the client a confirmation — before the van leaves the driveway.</div>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-name">TOOL 04 · MICROSOFT TEAMS (the parts nobody uses)</div>
+      <div class="tool-title">More than video calls — a full collaboration and workflow hub</div>
+      <div class="tool-body">Most small businesses use Teams for video calls and not much else. But Teams is actually a hub that connects to almost everything else in Microsoft 365. Channels keep project conversations organised and separate from your email inbox. Files shared in a Teams channel are stored in SharePoint and accessible to everyone in the channel. Tabs let you pin a shared Excel spreadsheet, a Power BI dashboard, or a Planner board directly inside a channel so the team never has to go looking for it.<br/><br/>If your team is still emailing each other internally, you're adding noise to the same inbox where client emails arrive. Moving internal communication to Teams channels cleans that up immediately.</div>
+      <div class="tool-example"><strong>Real example:</strong> A marketing agency had all client communication, internal discussion, and file sharing happening in email. After moving internal comms to Teams channels organised by client, their inboxes dropped by roughly 40% — and they could finally tell at a glance what needed a client response versus what was an internal update.</div>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-name">TOOL 05 · SHAREPOINT</div>
+      <div class="tool-title">Your company intranet and document hub — already built into your plan</div>
+      <div class="tool-body">SharePoint is Microsoft's document management and intranet platform. For a small business it means one thing practically: a structured, searchable place to put all the information your team needs to do their jobs — process documents, templates, contact lists, training materials, company policies — that isn't a chaotic shared Drive folder or a chain of "where's the latest version?" emails.<br/><br/>A SharePoint site can be set up in hours and doesn't require any technical knowledge to maintain. Pages are drag-and-drop. Permissions are straightforward. And because it's connected to Teams, your team can access it directly inside the apps they already use every day.</div>
+      <div class="tool-example"><strong>Real example:</strong> A 25-person professional services firm had their onboarding process spread across 11 different folders in OneDrive and a Word document nobody could find. A SharePoint page now contains every step, every template link, and every contact a new starter needs — and it takes new staff half a day to get up to speed instead of a full week.</div>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-name">TOOL 06 · MICROSOFT PLANNER & LISTS</div>
+      <div class="tool-title">Task and project management already inside your subscription</div>
+      <div class="tool-body">If your team is managing tasks in a spreadsheet, on a whiteboard, or in a third-party tool you're paying for separately — Planner and Lists are already in your Microsoft 365 subscription and do the same job. Planner gives you a visual task board (similar to Trello) for tracking who's doing what and when. Lists gives you a flexible, customisable tracker for anything from project status to inventory to client pipelines.<br/><br/>Both connect to Power Automate, so tasks can be created automatically from form submissions, emails, or other triggers — and both surface directly inside Teams.</div>
+      <div class="tool-example"><strong>Real example:</strong> A small logistics company was paying $180/month for a project management tool that four people used. Microsoft Planner replaced it entirely — connected to their existing Teams setup, integrated with their email, and costing exactly nothing extra.</div>
+    </div>
+
+    <hr class="divider"/>
+
+    <div class="pull-quote">"The tools aren't the problem. Most businesses already have everything they need. The gap is knowing what to switch on and how to connect it."</div>
+
+    <h2>Why is nobody using this?</h2>
+
+    <p>It's the same question worth asking every time this comes up. These features are included in a subscription most small businesses are already paying $15–25 per user per month for. So why are so many teams still copying data between spreadsheets manually, emailing each other internally, and paying for separate tools that duplicate what they already have?</p>
+
+    <p>Three reasons come up consistently:</p>
+
+    <p><strong>The feature names don't explain themselves.</strong> "Power Automate" doesn't tell a business owner what it does. "SharePoint" sounds like enterprise software from 2005. "Planner" could mean anything. Microsoft has a naming problem and it costs their customers real money.</p>
+
+    <p><strong>Nobody set it up intentionally.</strong> Most small businesses get their Microsoft 365 licences through a reseller or directly from Microsoft, and the setup is just "here are your email accounts." Nobody sits down and says "here's the ten other things in this subscription and here's what each one could do for your specific business." The features exist — they're just never turned on.</p>
+
+    <p><strong>It takes time to configure that nobody has.</strong> Even when a business owner knows something could be better, finding the time to actually set it up sits permanently at the bottom of the list. Meanwhile the manual processes continue, week after week.</p>
+
+    <hr class="divider"/>
+
+    <h2>Where to <em>actually</em> start</h2>
+
+    <p>If you're reading this and recognising your own business in several of these examples, here's a practical starting point that doesn't require a consultant or a budget.</p>
+
+    <p>This week, write down three things your team does manually every single day that involve moving information from one place to another. Copying data. Sending the same email. Updating a tracker. Filing a document. Those three things are your starting point — and every one of them is something Power Automate or Forms can handle automatically.</p>
+
+    <p>The most common first wins we see with Microsoft 365 clients:</p>
+
+    <p><strong>Email to task automation</strong> — a client emails a specific address, Power Automate creates a task in Planner, notifies the right person in Teams, and sends the client an acknowledgement. No manual step required.</p>
+
+    <p><strong>Form-based intake</strong> — replace paper forms, email chains, or manual data entry with a Microsoft Form that automatically populates a tracker and triggers the next step in the process.</p>
+
+    <p><strong>Copilot for email</strong> — turn on Copilot in Outlook and spend one week using it to summarise threads and draft routine replies. Most teams find it saves 30–45 minutes a day within the first week.</p>
+
+    <p><strong>Internal knowledge base</strong> — a SharePoint site that puts every process document, template, and contact in one searchable place. Kills the "where's the latest version of X?" email permanently.</p>
+
+    <hr class="divider"/>
+
+    <h2>You don't need new software. <em>You need the software you have, set up properly.</em></h2>
+
+    <p>The tools your business needs to run more efficiently are almost certainly already inside your Microsoft 365 subscription. What most small businesses are missing isn't technology — it's someone who understands the platform well enough to identify which features apply to your specific situation, turn the right things on, connect them together, and set them up so they run without ongoing maintenance.</p>
+
+    <p>That's what we do at Parallax Automation. We work with Vancouver businesses that are already on Microsoft 365 — and often Google Workspace alongside it — and help them get genuine value from what they're already paying for. We start with a free discovery call, scope the work as a fixed-price project, and deliver something that actually runs.</p>
+
+    <p>If your team is still doing things manually that your software should be doing for you — let's find out exactly what that looks like and fix it.</p>
+
+    <!-- CTA -->
+    <div class="article-cta">
+      <h3>Find out what's possible in your Microsoft 365.</h3>
+      <p>Book a free 45-minute discovery call. We'll review your current setup and show you exactly which features you're not using and what they could do for your business. No commitment, no jargon.</p>
+      <a href="mailto:hello@parallaxautomate.com?subject=Microsoft%20365%20Discovery%20Call" class="btn">Book your free call →</a>
+    </div>
+
+    <!-- Related articles -->
+    <div class="related-articles">
+      <p class="related-label">RELATED READING</p>
+      <a href="google-workspace-ai.html" class="related-link">
+        <div>
+          <div class="related-link-title">You're already paying for AI — the Google Workspace edition</div>
+          <div style="font-size:12px; color:var(--muted); margin-top:4px;">Gemini AI, Apps Script, and workflow tools hiding in your Google subscription</div>
+        </div>
+        <span class="related-link-arrow">→</span>
+      </a>
+    </div>
+
+    <!-- Author -->
+    <div class="author-block">
+      <div class="author-avatar">P</div>
+      <div>
+        <div class="author-name">Parallax Automation</div>
+        <div class="author-role">IT & AI AUTOMATION FOR VANCOUVER SMBS · PARALLAXAUTOMATE.COM</div>
+      </div>
+    </div>
+
+  </article>
+
+  <footer>
+    <p>© 2025 PARALLAX AUTOMATION · VANCOUVER, BC · AUTOMATIONS WITH A 'HUMAN' TOUCH</p>
+  </footer>
+
+</body>
+</html>
